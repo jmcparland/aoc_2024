@@ -2,6 +2,7 @@
 
 module Main where
 
+import Data.List (foldl', nub)
 import Data.List.Split (splitOn)
 
 type TestCase = (Int, [Int])
@@ -18,20 +19,20 @@ opList2 = [(+), (*), join]
 
 allOps :: [Operation] -> TestCase -> Int
 allOps ops (n, xs) = if any (== n) rs then n else 0
-  where
-    rs = foldl' (\acc x -> ops <*> acc <*> [x]) [head xs] (tail xs)
+ where
+  rs = foldl' (\acc x -> filter (<= n) (ops <*> acc <*> [x])) [head xs] (tail xs)
 
 solve :: [Operation] -> [TestCase] -> Int
 solve ops = sum . map (allOps ops)
 
 main :: IO ()
 main = do
-    cases <- parseInput <$> getContents
-    putStrLn $ "Part 1: " ++ show (solve opList1 cases)
-    putStrLn $ "Part 2: " ++ show (solve opList2 cases)
+  cases <- parseInput <$> getContents
+  putStrLn $ "Part 1: " ++ show (solve opList1 cases)
+  putStrLn $ "Part 2: " ++ show (solve opList2 cases)
 
 parseInput :: String -> [TestCase]
 parseInput c = do
-    tl <- lines c
-    let [ns, xss] = splitOn ":" tl
-    return (read ns :: Int, map read $ words xss :: [Int])
+  tl <- lines c
+  let [ns, xss] = splitOn ":" tl
+  return (read ns :: Int, map read $ words xss :: [Int])
