@@ -11,7 +11,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 05  | [Haskell](05.hs) |   2   | [Print Queue](https://adventofcode.com/2024/day/5)        | Funky Sort    |
 | 06  | [Haskell](06.hs) | 2 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | Grid Walks with Bumpers. Busy i5 4-core laptop: 7m at time of solution -> 30s refined -> 15s with trivial parallelism :-) |
 | 07 | [Haskell](07.hs) | 2 | [Bridge Repair](https://adventofcode.com/2024day/7) | Applicative Ops |
-| 08 | [Haskell](08.hs) | 2 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | Set Ops |
+| 08 | [Haskell](08.hs) | 2 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | Set Ops. After solving, I did a rewrite with Reader monad. |
 
 ## Additional Modules
 
