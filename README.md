@@ -13,6 +13,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 07  | [Haskell](07.hs) |   2   | [Bridge Repair](https://adventofcode.com/2024day/7)          | Applicative Ops                                                                                                           |
 | 08  | [Haskell](08.hs) |   2   | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | Set Ops. After solving, I did a rewrite with Reader monad.                                                                |
 | 09  | [Haskell](09.hs) |   2   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | Sequence / Deque Ops.                                                                                                     |
+| 10 | [Haskell](10.hs) | 2 | [Hoof It](https://adventofcode.com/2024/day/10) | Paths & Unique Paths. Some Graph Ops plus one wicked Recursion through Bipartite Graphs. (~2sec interpreter, < 1sec compiled.) |
 
 ## Additional Modules
 
