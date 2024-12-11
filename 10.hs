@@ -38,10 +38,10 @@ mapToGraph m = do
 
 --
 scoreZeros :: G.Graph -> V.Vector [G.Vertex] -> M.Map Int Int
-scoreZeros g nodesByElt = foldl' (\acc nineNode -> M.unionWith (+) acc (onesToNine g nodesByElt nineNode)) M.empty (nodesByElt V.! 9)
+scoreZeros g nodesByElt = foldl' (\acc nineNode -> M.unionWith (+) acc (zerosToNine g nodesByElt nineNode)) M.empty (nodesByElt V.! 9)
 
-onesToNine :: G.Graph -> V.Vector [G.Vertex] -> Int -> M.Map Int Int
-onesToNine g nodesByElt nineNode = go 0
+zerosToNine :: G.Graph -> V.Vector [G.Vertex] -> Int -> M.Map Int Int
+zerosToNine g nodesByElt nineNode = go 0
   where
     go :: Int -> M.Map Int Int
     go 9 = M.singleton nineNode 1
