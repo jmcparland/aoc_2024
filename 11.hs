@@ -17,7 +17,7 @@ stoneCounts stones depth = do
     go m depth = do
         let ks = M.keys m
         let additions = concatMap (\k -> map (\v -> (v, M.findWithDefault 1 k m)) $ process k) ks
-        let subtractions = map (\k -> (k, negate $ M.findWithDefault (-1) k m)) $ M.keys m
+        let subtractions = map (\k -> (k, negate $ M.findWithDefault 1 k m)) $ M.keys m
         let changedMap = M.fromListWith (+) $ additions ++ subtractions
         let m' = M.filter (> 0) $ M.unionWith (+) m changedMap
         go m' (depth - 1)
