@@ -15,6 +15,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 09  | [Haskell](09.hs) |   2   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | Sequence / Deque Ops.                                                                                                          |
 | 10  | [Haskell](10.hs) |   2   | [Hoof It](https://adventofcode.com/2024/day/10)              | Paths & Unique Paths. Some Graph Ops plus one wicked Recursion through Bipartite Graphs. (~2sec interpreter, < 1sec compiled.) |
 | 11  | [Haskell](11.hs) |   2   | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | Count the Right Things. (0.8 sec in the interpreter)                                                                           |
+| 12 | [Haskell](12.hs) | 2 | [Garden Groups](https://adventofcode.com/2024/day/12) | A Complex Mess :-p  Connected components partitioning grid. |
 
 ## Additional Modules
 
