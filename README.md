@@ -15,7 +15,8 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 09  | [Haskell](09.hs) |   2   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | Sequence / Deque Ops.                                                                                                          |
 | 10  | [Haskell](10.hs) |   2   | [Hoof It](https://adventofcode.com/2024/day/10)              | Paths & Unique Paths. Some Graph Ops plus one wicked Recursion through Bipartite Graphs. (~2sec interpreter, < 1sec compiled.) |
 | 11  | [Haskell](11.hs) |   2   | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | Count the Right Things. (0.8 sec in the interpreter)                                                                           |
-| 12 | [Haskell](12.hs) | 2 | [Garden Groups](https://adventofcode.com/2024/day/12) | A Complex Mess :-p  Connected components partitioning grid. |
+| 12  | [Haskell](12.hs) |   2   | [Garden Groups](https://adventofcode.com/2024/day/12)        | A Complex Mess :-p Connected components partitioning grid.                                                                     |
+| 13  | [Haskell](13.hs) |   2   | [Claw Contraption](https://adventofcode.com/2024/day/13)     | Trivial 2x2 Matrix Solver. More tedius parsing inputs (using separate [Parse13](Parse13.hs).)                                  |
 
 ## Additional Modules
 
@@ -23,3 +24,4 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [GridParse](GridParse.hs) | Helper functions for dealing with Grid input.                                                                                                                   |
 | [Pos](Pos.hs)             | `Pos row col` type with component-wise addition, subtraction, and scalar multiplication. `Pos 3 4 + 2 *. Pos 3 2 == Pos 9 8`. `inBox 5 7 (Pos 10 10) == False`. |
+| [Parse13](Parse13.hs)     | Parser for the input of Day 13.                                                                                                                                 |
