@@ -19,7 +19,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 13  | [Haskell](13.hs) |   2   | [Claw Contraption](https://adventofcode.com/2024/day/13)     | Trivial 2x2 Matrix Solver. More tedius parsing inputs (using separate [Parse13](Parse13.hs).)                                  |
 | 14  | [Haskell](14.hs) |   2   | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | Guards searching for Christmas Tree. Parsing inputs using  [Parse14](Parse14.hs).)                                  |
 | 15  | [Haskell](15/) |   2   | [Warehouse Woes](https://adventofcode.com/2024/day/15)     | Pushing Blocks. Beautiful Refactor! |
-
+| 16 | | | [Reindeer Maze](https://adventofcode.com/2024/day/16) | Optimal maze solving |
 
 ## Additional Modules
 
