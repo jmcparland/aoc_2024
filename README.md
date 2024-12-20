@@ -17,9 +17,9 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 11  | [Haskell](11.hs) |   2   | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | Count the Right Things. (0.8 sec in the interpreter)                                                                           |
 | 12  | [Haskell](12.hs) |   2   | [Garden Groups](https://adventofcode.com/2024/day/12)        | A Complex Mess :-p Connected components partitioning grid.                                                                     |
 | 13  | [Haskell](13.hs) |   2   | [Claw Contraption](https://adventofcode.com/2024/day/13)     | Trivial 2x2 Matrix Solver. More tedius parsing inputs (using separate [Parse13](Parse13.hs).)                                  |
-| 14  | [Haskell](14.hs) |   2   | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | Guards searching for Christmas Tree. Parsing inputs using  [Parse14](Parse14.hs).)                                  |
-| 15  | [Haskell](15/) |   2   | [Warehouse Woes](https://adventofcode.com/2024/day/15)     | Pushing Blocks. Beautiful Refactor! |
-| 16 | | | [Reindeer Maze](https://adventofcode.com/2024/day/16) | Optimal maze solving |
+| 14  | [Haskell](14.hs) |   2   | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | Guards searching for Christmas Tree. Parsing inputs using [Parse14](Parse14.hs).)                                              |
+| 15  | [Haskell](15/)   |   2   | [Warehouse Woes](https://adventofcode.com/2024/day/15)       | Pushing Blocks. Beautiful Refactor!                                                                                            |
+| 16  | [Haskell](16/)   |   2   | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | Dijkstra with backtracking.                                                                                                    |
 
 ## Additional Modules
 
