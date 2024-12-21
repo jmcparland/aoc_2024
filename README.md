@@ -20,6 +20,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 14  | [Haskell](14.hs) |   2   | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | Guards searching for Christmas Tree. Parsing inputs using [Parse14](Parse14.hs).)                                              |
 | 15  | [Haskell](15/)   |   2   | [Warehouse Woes](https://adventofcode.com/2024/day/15)       | Pushing Blocks. Beautiful Refactor!                                                                                            |
 | 16  | [Haskell](16/)   |   2   | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | Dijkstra with backtracking.                                                                                                    |
+| 17  | [Haskell](16/)   |   2   | [Chronospatial Computer](https://adventofcode.com/2024/day/17)        | Manual inspection and experimentation.   |
 
 ## Additional Modules
 
@@ -29,3 +30,5 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | [Pos](Pos.hs)             | `Pos row col` type with component-wise addition, subtraction, and scalar multiplication. `Pos 3 4 + 2 *. Pos 3 2 == Pos 9 8`. `inBox 5 7 (Pos 10 10) == False`. |
 | [Parse13](Parse13.hs)     | Parser for the input of Day 13.                                                                                                                                 |
 | [Parse14](Parse14.hs)     | Parser for the input of Day 14.                                                                                                                                 |
+| [Dijkstra](16/Dijkstra.hs) | Dijkstra with backtracking -- just in case. |
+
