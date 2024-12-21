@@ -20,7 +20,8 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 14  | [Haskell](14.hs) |   2   | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | Guards searching for Christmas Tree. Parsing inputs using [Parse14](Parse14.hs).)                                              |
 | 15  | [Haskell](15/)   |   2   | [Warehouse Woes](https://adventofcode.com/2024/day/15)       | Pushing Blocks. Beautiful Refactor!                                                                                            |
 | 16  | [Haskell](16/)   |   2   | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | Dijkstra with backtracking.                                                                                                    |
-| 17  | [Haskell](16/)   |   2   | [Chronospatial Computer](https://adventofcode.com/2024/day/17)        | Manual inspection and experimentation.   |
+| 17  | [Haskell](17/)   |   2   | [Chronospatial Computer](https://adventofcode.com/2024/day/17)        | Manual inspection and experimentation.   |
+| 18  | [Haskell](18/)   |   2   | [RAM Run](https://adventofcode.com/2024/day/18)        | Dijkstra reuse. |
 
 ## Additional Modules
 
