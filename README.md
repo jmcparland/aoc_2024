@@ -22,6 +22,7 @@ Link: [Advent of Code](https://adventofcode.com/2024)
 | 16  | [Haskell](16/)   |   2   | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | Dijkstra with backtracking.                                                                                                    |
 | 17  | [Haskell](17/)   |   2   | [Chronospatial Computer](https://adventofcode.com/2024/day/17)        | Manual inspection and experimentation.   |
 | 18  | [Haskell](18/)   |   2   | [RAM Run](https://adventofcode.com/2024/day/18)        | Dijkstra reuse. |
+| 19  | [Haskell](19/)   |   2   | [Linen Layout](https://adventofcode.com/2024/day/19)        | Recursive DP with State monad. I had a bug where I was two over the correct answer. Days... |
 
 ## Additional Modules
 
