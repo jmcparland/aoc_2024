@@ -1,6 +1,17 @@
 # Advent of Code 2024
 
-Link: [Advent of Code](https://adventofcode.com/2024)
+By the end of Christmas, I had 40 stars -- two stars for each of the first 20 days. 
+
+My first stall? Day 19: I had a bug that had me two-over the correct Part One answer. Since the Test data passed, it was unlikely that I was ever going to find the correct answer at random. I found someone else's (beautiful, python) solution in the Day 19 Megathread which resembled my approach. I had to use that script to find the correct answer for my input. In the process, I found my counts didn't mirror the correct ones, so the derrived pass/fails were off too. The python script was using the @cache decorator while in Haskell I was operating in a State monad -- so there was still work to do. In the end, my error was seeding initial state incorrectly, declaring the initial "towels" as seen. I posted my answer once my code was finally correct -- two or three days later.
+
+Once behind, I continued "serially:" (1) I felt no urgency to return to AOC (day job, family, etc), and (2) I did not skip ahead to the current day, try to get all the Part Ones, or try any other skip-ahead. I was looking at Day 21 on Christmas Day, thinking, "Nope! Things to do :-)" No regrets!
+
+All in all, I was happy to do all my work in Haskell -- which I just started learning independently this year on a lark -- and I spent *a lot* of time refactoring and trying to work in some more advanced techniques and abstraction. I learned a lot and I'm pleased with the results.  FWIW!
+
+I may spend a few days before New Years Day seeing if I can make a little more progress -- TBD.
+
+
+Link: [Advent of Code 2024](https://adventofcode.com/2024)
 
 | Day | Code             | Stars | Title                                                        | Comment                                                                                                                        |
 | --- | ---------------- | :---: | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
