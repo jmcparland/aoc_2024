@@ -36,6 +36,12 @@ Link: [Advent of Code 2024](https://adventofcode.com/2024)
 | 19  | [Haskell](19/)   |   2   | [Linen Layout](https://adventofcode.com/2024/day/19)        | Recursive DP with State monad. I had a bug where I was two over the correct answer. Days... |
 | 20  | [Haskell](20/)   |   2   | [Race Condition](https://adventofcode.com/2024/day/20)        | Umm... Just counting stuff? :-p  (Dijkstra reuse plus a list comprehension.) |
 
+## After the Deadline
+
+| Day | Code             | Stars | Title                                                        | Comment                                                                                                                        |
+| --- | ---------------- | :---: | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| 21 | [Haskell](21/) | 1 | [Keypad Conundrum](https://adventofcode.com/2024/day/21) | The pre-calculation work is interesting if unrefined. The technique won't work for Part Two as is, even with caching. Will likely need to reduce lookup of full strings down to maybe pairs -- TBD. |
+
 ## Additional Modules
 
 | Name                      | Description                                                                                                                                                     |
